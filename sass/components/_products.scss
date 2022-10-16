@@ -110,13 +110,22 @@
   letter-spacing: map-get($letter-spacing, medium);
   margin-top: 161px;
   margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   
   &::after {
     content: '';
     background-image: url("../images/products/Group.png");
     width: 26px;
     height: 6px;
+    position: absolute;
     
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ bottom: 36px;
+   
   }
 }
 .products__description {
