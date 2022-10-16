@@ -110,22 +110,20 @@
   letter-spacing: map-get($letter-spacing, medium);
   margin-top: 161px;
   margin-bottom: 30px;
-
+  
   &::after {
-    content: url("./images/products/sprite.svg#icon-Group-4");
-    // background-image: url("./images/products/sprite.svg#icon-Group-4");
-    // background-image: url("./images/products/symbol-defs(3)");
-    // background-image: url("./images/products/group4.svg#icon-Group-4");
+    content: '';
+    background-image: url("../images/products/Group.png");
     width: 26px;
     height: 6px;
-
-    margin-bottom: 30px;
+    
   }
 }
 .products__description {
   color: $white;
   font-family: $primary-font-family;
   line-height: 1.52;
+  margin-top: 30px;
 }
 
 .products__list {
