@@ -121,8 +121,6 @@
   margin-top: 161px;
   margin-bottom: 30px;
   position: relative;
-  // display: flex;
-  // flex-direction: column;
 
   &::after {
     content: "";
@@ -135,6 +133,7 @@
     bottom: -38px;
   }
 }
+
 .products__description {
   color: $white;
   font-family: $primary-font-family;
